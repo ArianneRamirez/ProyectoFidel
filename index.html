@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fidel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <!-- Esta pagina muestra la trayectoria y la actividad de un músico -->
 <body>
     <header>
        
-        <h1><a href="./index.html">Fidel</a></h1>
+        <h1 class="animate__animated animate__bounce"><a href="./index.html">Fidel</a></h1>
         <div>
             <nav>
                 <ul class="nav">
@@ -24,11 +25,21 @@
         </div>
     </header>
     <section>
-        <div class="video_index">
+        <figure class="transformacion"> 
+            <img class="instrumento__fotos"
+            src="./pics/FidelTromp.jpeg" 
+            alt="partitura"
+            />
+       </figure>
+    <!--<div class="video_index">
            <iframe width="900" height="506" src="https://www.youtube.com/embed/cKNudwPMXuo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        </div>-->
    </section>
     <footer class="piepag">
         <p>Creado por Arianne en abril/22</p>
     </footer>
+    <script src="js/wow.min.js"></script>
+    <script>
+       new WOW().init();
+    </script>
 </body>

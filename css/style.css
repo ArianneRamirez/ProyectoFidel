@@ -91,6 +91,18 @@ h3{
     text-decoration: none;
 }
 
+.transformacion{
+width: 200px;
+height: 200px;
+margin: auto;
+margin-top: 5px;
+transition: all 2s;
+}
+
+.transformacion:hover{
+    transform: scaleY(2) scaleX(2);
+}
+
 .piepag {
     display: inline-block;
     font-family: 'Roboto', sans-serif;

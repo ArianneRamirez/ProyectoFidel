@@ -5,65 +5,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instrumentos y Géneros</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <h1 class="animate__animated animate__bounce"><a href="../index.html">Fidel</a></h1>
-    <h1 class="text">Instrumentos y géneros</h1><br>
-    <div>
-        <nav>
-            <ul class="nav">
-                <li><a href="bio.html">Biografía</a></li>
-                <li><a href="instrumentosygeneros.html">Instrumentos y géneros</a></li>
-                <li><a href="ensambles.html">Ensambles</a></li>
-                <li><a href="contacto.html">Contacto</a></li> 
-            </ul>
-        </nav>
-    </div>
-    <section>
-    <figure>
-         <img class="instrumento__fotos"
-         src="../pics/pexels-vladyslav-dukhin-130991.jpg" 
-         alt="partitura"
-         />
-    </figure>
-       <div>
-            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><br>
-            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><br>
-            <p class="text"> Iste nisi suscipit veniam illum temporibus id quidem,</p><br>
-       </div> 
-    </section>
-    <section>
-         <figure>
-             <img class="instrumento__fotos"
-             src="../pics/tromproja.jpg" 
-             alt="es una trompeta roja"
-             />
-        </figure>
-        <div>
-            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><br>
-            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><br>
-            <p class="text"> Iste nisi suscipit veniam illum temporibus id quidem,</p><br>
-       </div> 
-    </section>
-    <section>
-        <!-- Lista de gpeneros musicales -->
-        <h2>Géneros musicales</h2>
-        <ul class="text">
-            <li>Jazz</li>
-            <li>Bossa Nova</li>
-            <li>Funk</li>
-            <li>Soul</li>
-            <li>Trap</li>
-        </ul>
-    </section>
+    <div class="container">
+        <header  class="row">
+            <div class="col-lg-5">
+                <h1 class="animate__animated animate__bounce"><a href="../index.html">Fidel</a></h1>
+            </div>
+         <!-- nav de boost -->
+         <nav class="navbar navbar-expand-lg navbar-light bg-light col-lg-7 barra">
+           <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                <a class="nav-link" href="../pages/bio.html">Biografía</a>
+                <a class="nav-link" href="../pages/instrumentosygeneros.html">Instrumentos y géneros</a>
+                <a class="nav-link" href="../pages/ensambles.html">Ensambles</a>
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+              </div>
+            </div>
+           </div>
+          </nav> <!-- fin nav de boost -->
+      </header>
+
+    <main class="row"> 
+        <section class="col-lg-10" >
+            <article >
+                <h1 class="text">Instrumentos y géneros</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto enim harum obcaecati recusandae deleniti! Laudantium dignissimos veritatis nobis pariatur facilis perferendis architecto, doloribus molestias iste. Earum, ea fugiat. Illum, cumque.</p> 
+            </article> 
+          </section>
+             <aside class="col-lg-2">
+               <h3>aside</h3>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam porro quam neque.</p>
+            </aside>
+    
+      <section  class="col-lg-4">
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../pics/pexels-vladyslav-dukhin-130991.jpg" class="img-fluid rounded-start" alt="guitarra">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Guitarra</h5>
+                  <p class="card-text">Acá describimos las habilidades tocando la guitarra.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="col-lg-4">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="../pics/tromproja.jpg" class="img-fluid rounded-start" alt="Trompeta">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Trompeta</h5>
+                      <p class="card-text">Habilidades tocando la trompeta.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section class="col-lg-4">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="../pics/ensamble2.jpeg" class="img-fluid rounded-start" alt="Géneros">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Géneros</h5>
+                      <p class="card-text">Jazz. Bossa Nova. Funk. Soul. Trap. Tango.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        
+        
+</main>
     <footer class="piepag">
         <p>Creado por Arianne en abril/22</p>
     </footer>
+    
+    </div>
     <script src="js/wow.min.js"></script>
     <script>
        new WOW().init();
     </script>
+    <script> src="../js/bootstrap.bundle.js"</script>
 </body>
 </html>

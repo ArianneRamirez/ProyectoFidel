@@ -1,4 +1,9 @@
 # Pagina de Fidel Makón
 
+## Librerias y frameworks
+wow
+bootstrap 
+
 ## Demo
-https://github.com/ArianneRamirez/ProyectoFidel/settings/pages
+https://arianneramirez.github.io/ProyectoFidel/
+

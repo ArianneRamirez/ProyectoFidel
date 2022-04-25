@@ -5,67 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biografía</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="../css/style.css">
-</head>
+  </head>
 <body >
-    <h1 class="animate__animated animate__bounce"><a href="../index.html">Fidel</a></h1>
-    <h1 class="text">Biografía</h1><br>
-    <div>
-        <nav>
-            <ul class="nav">
-                <li><a href="bio.html">Biografía</a></li>
-                <li><a href="instrumentosygeneros.html">Instrumentos y géneros</a></li>
-                <li><a href="ensambles.html">Ensambles</a></li>
-                <li><a href="contacto.html">Contacto</a></li> 
-            </ul>
-        </nav>
-    </div>
+    <div class="container">
+        <header  class="row">
+            <div class="col-lg-5">
+                <h1 class="animate__animated animate__bounce"><a href="../index.html">Fidel</a></h1>
+            </div>
+            <!-- nav de boost -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light col-lg-7 barra">
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    <a class="nav-link" href="../pages/bio.html">Biografía</a>
+                    <a class="nav-link" href="../pages/instrumentosygeneros.html">Instrumentos y géneros</a>
+                    <a class="nav-link" href="../pages/ensambles.html">Ensambles</a>
+                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          <!-- fin nav de boost -->
+        </header>
 
-    <div>
- <!-- acá va el video, pero no quiero que se vea que es de youtube-->
-    </div>
-    <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste soluta ad quasi illo culpa perferendis veritatis accusantium quod, molestias eum libero voluptas sit sunt officia aliquam, consequuntur odit incidunt velit?</p>
+        <main class="row"> 
+            <section class="col-lg-10" >
+                <article >
+                    <h1 class="text">Biografía</h1>
+                    <p>Estudiante de licenciatura en música con orientación en composición (música popular). Amante de todos los géneros, interprete activo y  compositor. </p> 
+                </article> 
+            </section>
+                <aside class="col-lg-2">
+                   <h3>aside</h3>
+                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                </aside>
+            <section>
+              <div class="carrusel"> <!-- carrusel  -->
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../pics/ensambleSmall.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Universidad Nacional de las Artes</h5>
+                        <p>Composicion musical</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../pics/FidelTromp.jpeg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Colegio Nacional de Buenos Aires</h5>
+                        <p>Secundario</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../pics/pexels-vladyslav-dukhin-130991.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Primeros pasos</h5>
+                        <p>Piano, guitarra y trompeta</p>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>  <!-- fin carrusel  -->   
+            </section>
+        </main>
+      </div>
 
-    <table  class="tabla">
-        <!-- Esta tabla quiero que sea un acordeon -->
-        <tr> 
-            <th>Año</th>
-            <th>Instituto</th>
-            <th>Formación</th>
-        </tr>
-        <tr>
-            <td>2020</td>
-            <td>Universidad Nacional de las Artes</td> 
-            <td>Composición Musical</td>
-        </tr>
-        <tr>
-            <td>2019</td>
-            <td>Janet</td>
-            <td>Trompeta</td>
-        </tr>
-        <tr>
-            <td>2018</td>
-            <td>Pablo</td>
-            <td>Guitarra</td>
-        </tr>
-        <tr>
-            <td>2011</td>
-            <td>Instituo Orfeo</td>
-            <td>Piano</td>
-        </tr>
-        <tr>
-            <td>2008</td>
-            <td>Escuela de música Cibrian Mahler </td>
-            <td>Piano</td>
-        </tr>
-        <tr>
-            <td>2006</td>
-            <td>Yamaha</td> 
-            <td>Piano inicial</td>
-        </tr>
-        
-    </table>
     <footer class="piepag">
         <p>Creado por Arianne en abril/22</p>
     </footer>
@@ -73,5 +98,7 @@
     <script>
        new WOW().init();
     </script>
-</body>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+    <script src="../js/bootstrap.bundle.js"> </script>
+  </body>
 </html>

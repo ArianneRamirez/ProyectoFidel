@@ -5,46 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <h1 class="animate__animated animate__bounce"><a href="../index.html">Fidel</a></h1>
-    <h1 class="text">Contacto</h1><br>
-    <div>
-        <nav>
-            <ul class="nav">
-                <li><a href="bio.html">Biografía</a></li>
-                <li><a href="instrumentosygeneros.html">Instrumentos y géneros</a></li>
-                <li><a href="ensambles.html">Ensambles</a></li>
-                <li><a href="contacto.html">Contacto</a></li> 
-            </ul>
-        </nav>
-    </div>
-    <form action=""  class="formulario">
-        <fieldset>
+    <div class="container">
+        <header  class="row">
+            <div class="col-lg-5">
+                <h1><a href="../index.html">Fidel</a></h1>
+            </div>
+           <!-- nav de boost -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light col-lg-7 barra">
+                <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  <a class="nav-link" href="../pages/bio.html">Biografía</a>
+                  <a class="nav-link" href="../pages/instrumentosygeneros.html">Instrumentos y géneros</a>
+                  <a class="nav-link" href="../pages/ensambles.html">Ensambles</a>
+                  <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                 </div>
+                </div>
+             </div>
+            </nav> <!-- fin nav de boost -->
+       </header>
+
+       <form action=""  class="col-lg-7 form-control-md formulario">
+          <fieldset>
             <legend>Escribime</legend>   
-        <label for="Nombre">
-            <span>¿Cuál es tu nombre?</span>
-            <input type="text" id="Nombre" placeholder="tu nombre"/><br><br>
-        </label>
-       <label for="email">
-        <span>¿Cuál es tu mail?</span>
-        <input type="mail" id="email" placeholder="tu email"required/><br><br>
-     </label>
-     <label for="texto">
-        <span>Contame</span>
-        <textarea name="text" id="" cols="30" rows="5" placeholder="¿Qué me querés decir?"></textarea><br> <br>
-     </label>
-      <input  class= "animate__animated animate__rubberBand"  type="submit">
-    </fieldset>
-      </form>
-    <footer class="piepag">
+            <label for="Nombre" class="form-label"></label>
+                <span>¿Cuál es tu nombre?</span>
+                 <input type="text" id="Nombre" placeholder="tu nombre"/><br><br>
+            </label>
+            <label for="email" class="form-label"></label>
+                 <span>¿Cuál es tu mail?</span>
+                <input type="mail" id="email" placeholder="tu email"required/><br><br>
+            </label>
+            <label for="texto" class="form-label"></label>
+                <span>Contame</span>
+                <textarea name="text" id="" cols="30" rows="5" placeholder="¿Qué me querés decir?"></textarea><br> <br>
+            </label>
+            <input  class= "animate__animated animate__rubberBand"  type="submit">
+         </fieldset>
+        </form>
+
+      <footer class="piepag">
         <p>Creado por Arianne en abril/22</p>
-    </footer>
+      </footer>
+    </div>
+
     <script src="js/wow.min.js"></script>
     <script>
        new WOW().init();
     </script>
+    <script> src="../js/bootstrap.bundle.js"</script>
 </body>
 </html>

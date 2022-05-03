@@ -18,8 +18,8 @@ table, th, td {
   }
 
 .instrumento__fotos{
-        width: 700px;
-        height:500px;
+        width: 500px;
+        height:250px;
         padding: 20px;
        border-radius:5px;
        justify-content: center;

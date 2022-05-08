@@ -40,6 +40,18 @@ table, th, td {
     opacity: 0.3px;
 }
 
+.avatar {
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+}
+
+.avatar__image {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
 .video_index{
        width:900px;
        height:506px;
@@ -84,6 +96,19 @@ h3{
     position: relative;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__cover {
+    height: 150px;
+    width: 100%;
+}
+
+.card__content {
+    flex: 1;
+}
 
 .transformacion{
 width: 200px;

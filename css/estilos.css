@@ -142,3 +142,8 @@ h3 {
   font-family: 'Roboto', sans-serif;
   color: #5f321e;
   font-size: 15px; }
+
+@media (min-width: 320px) and (max-width: 768px) {
+  foto_index {
+    width: 150px;
+    height: 200px; } }

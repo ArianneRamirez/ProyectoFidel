@@ -12,12 +12,18 @@ $title-font: normal 24px/1.5 'Roboto', sans-serif;
 .text{font-family: 'Roboto', sans-serif;
     color:#451e12;}
 
-table, th, td {
-    border: 1px solid;
-    border-style: solid;
-    border-color: #324351;
-    font-family: 'Roboto', sans-serif;
-  }
+.encabezado{
+  padding: 10px;
+}
+
+.titulo{
+    align-content: center;
+    justify-content: center;
+    vertical-align: middle; 
+    padding: 10px;
+    font-size: 24px;
+
+}
 
 .instrumento__fotos{
        width: 500px;
@@ -28,24 +34,30 @@ table, th, td {
 
 .carrusel{
     font-family: $title-font;
-    font-size: 20px;
-    margin: auto;
+    font-size: 14px;
     position: relative;
-    width: 600px;
-    height:350px;
+    width: 440px;
+    height:380px;
+    padding-left: 20px;
     display: flex;
-    align-content: center;
-    justify-content: center;
+   align-content: center;
+   justify-content: center;
     vertical-align:middle;
 }
  
 .public{
     width: 200px;
-    height: 200px;
-    border-radius:5px;
+    height:500px;
     opacity: 0.3px;
-    background: rgb(244, 238, 241);
+    display: flex;
+    flex-wrap: wrap;
 }
+.public_index{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
 .ensambles__fotos{
     width: 400px;
     height:250px;
@@ -54,35 +66,33 @@ table, th, td {
 }
 
 .avatar {
-    border-radius: 50%;
-    height: 64px;
-    width: 64px;
+    border-radius: 20%;
+    height: 100px;
+    width: 100px;
 }
 
 .avatar__image {
-    border-radius: 50%;
+    border-radius: 30%;
     height: 100%;
     width: 100%;
 }
 
- .iframe-container {
-    width:1200px;
-    height:200px;
+.iframe-container {
+    padding: 15px;
+    width: 660px;
+    height: 500px;
 	text-align:center;
   	width:100%;
-  }
-
-.foto_index{
-    max-width: 340px;
-    margin: auto;
-    position: relative;
-    width: 600px;
-    height:500px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    vertical-align:middle;
+      border-radius: 12px;
 }
+
+ .contenedor {
+    padding-bottom: 15px;
+    margin-top: 15px;
+    position: relative;
+    padding-bottom: 2rem;
+    min-height: 100vh;
+  }
 
 .formulario{
     max-width: 340px;
@@ -90,10 +100,10 @@ table, th, td {
     overflow-y: auto;
     position: relative;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     width: 600px;
-    height:500px;
-    background: rgb(244, 225, 235);
+    height:400px;
+    background: #f6f8fa;
 }
 
 input {
@@ -101,7 +111,7 @@ input {
     border-radius: .25rem;
     padding: .75rem 1rem;
     &[type="submit"] {
-      background: rgb(244, 129, 187);
+    background:#24292f;
       color: white;
     }
   }
@@ -150,16 +160,30 @@ h3{
     flex: 1;
 }
 
+
 .transformacion{
-width: 200px;
-height: 200px;
+width: 400px;
+height: 300px;
 margin: auto;
 margin-top: 5px;
 transition: all 2s;
 }
 
 .transformacion:hover{
-    transform: scaleY(2) scaleX(2);
+    transform: scaleY(1.2) scaleX(1.2);
+}
+
+.foto_index{
+    max-width: 340px;
+    margin: auto;
+    position: relative;
+    width: 100vh;
+    height:100vh;
+    display: flex;
+    border-radius: 10px;
+    align-content: center;
+    justify-content: center;
+    vertical-align:middle;
 }
 
 .piepag {
@@ -167,10 +191,25 @@ transition: all 2s;
     font-family: 'Roboto', sans-serif;
     color:#5f321e;
     font-size: 15px;
+    //position:absolute;
+    //bottom: 0;
+   // width: 100%;
 }
-  
-@media (min-width:320px) and (max-width:768px){
-    foto_index{
-        width: 150px;
-        height:200px;}
-    }
+
+
+
+
+//@media (min-width:320px) and (max-width:768px){
+//    .carrusel{
+//        font-family: $title-font;
+//        font-size: 12px;
+//        margin: auto;
+//        position: relative;
+//        width: 300px;
+//        height:350px;
+//        display: flex;
+//        align-content: center;
+//        justify-content: center;
+//        vertical-align:middle;
+//    }
+//  }

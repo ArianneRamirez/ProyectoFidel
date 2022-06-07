@@ -12,16 +12,16 @@
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container contenedor">
         <header  class="row">
           <div class="col-lg-3 avatar">
-            <img class="avatar__image" src="../pics/avatar.jpg" />
-           </div>  
-          <div class="col-lg-2">
-                <h1 class="animate__animated animate__bounce"><a href="../index.html">Fidel</a></h1>
-            </div>
+            <a title="Fidel" href="../index.html"> <img class="avatar__image" src="../pics/Avatar.png" /></a> 
+          </div>
+           <div class="col-lg-2 titulo">
+               <h1><a href="../index.html">Fidel Makón</a></h1>
+           </div>
          <!-- nav de boost -->
-         <nav class="navbar navbar-expand-lg navbar-light bg-light col-lg-7 barra">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light col-lg-7 nav">
            <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -40,22 +40,21 @@
       </header>
 
     <main class="row"> 
-        <section class="col-lg-10" >
+        <section class="col-lg-9 " >
             <article >
-                <h1 class="text">Instrumentos y géneros</h1>
-                <h2>Trompetista por naturaleza, también toco la guitarra y canto</h2>
+                <h1 class="text encabezado">Instrumentos y géneros</h1>
             </article> 
-          </section>
-             <aside class="col-lg-2 public">
-               <h3>Publicidad</h3>
-               <p>Espacio para publicidad.</p>
-            </aside>
-        
-            <article class="col-lg-10   iframe-container"> 
-              <iframe src="https://www.youtube.com/embed/cKNudwPMXuo" title="YouTube video player" allowfullscreen></iframe>
+            <article class="col-lg-9   iframe-container art1"> 
+              <iframe width="660" height="415" src="https://www.youtube.com/embed/cKNudwPMXuo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <h4>Arreglo e interpretación de Desafinado de A.C. Jobim con letra de Newton Mendonça, </h4> 
+              <p>(basada en versiones en vivo de Joao Gilberto para voz y guitarra)</p> 
             </article>
-    
-      <section  class="col-lg-4">
+          </section>
+          <aside class="col-lg-3 public">
+            <a title="Publicidad" href="https://www.resortsbyhyatt.com"><img src="../pics/Publicidad1.JPG" alt="publicidad" /></a>
+         </aside>
+      <h1>Otros instrumentos y géneros</h1>
+      <section  class="col-lg-4 art2">
          <div class="card mb-3" style="max-width: 540px;"> 
             <div class="row g-0">
               <div class="col-md-4">
@@ -70,7 +69,7 @@
             </div>
           </div>
         </section>
-        <section class="col-lg-4">
+        <section class="col-lg-4 art3">
             <div class="card mb-3" style="max-width: 540px;">
                 <div class="row g-0">
                   <div class="col-md-4">
@@ -85,7 +84,7 @@
                 </div>
               </div>
         </section>
-        <section class="col-lg-4">
+        <section class="col-lg-4 art4">
             <div class="card mb-3" style="max-width: 540px;">
                 <div class="row g-0">
                   <div class="col-md-4">
@@ -100,15 +99,12 @@
                 </div>
               </div>
             </section>
-           
-        
-        
-</main>
-    <footer class="piepag">
-        <p>Creado por Arianne en abril/22</p>
-    </footer>
-    
+        </main>
+      <footer class="piepag">
+          <p>Creado por Arianne en abril/22</p>
+     </footer>
     </div>
+
     <script src="js/wow.min.js"></script>
     <script>
        new WOW().init();

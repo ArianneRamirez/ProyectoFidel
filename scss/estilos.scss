@@ -10,19 +10,32 @@ $title-font: normal 24px/1.5 'Roboto', sans-serif;
 
 
 .text{font-family: 'Roboto', sans-serif;
-    color:#451e12;}
-
-.encabezado{
+  color:14213d;
+  align-content: center;
+  justify-content:center;
+  vertical-align: middle; 
   padding: 10px;
 }
 
+.encabezado{
+  padding: 15px;
+  background-color: #447590;
+  color:#070707;
+  margin-bottom: 10px;
+}
+
+.bajada{
+    padding: 15px;
+    margin-bottom: 12px;
+    background-color: #66a2c5;
+  }
+
 .titulo{
     align-content: center;
-    justify-content: center;
+    justify-content:center;
     vertical-align: middle; 
     padding: 10px;
     font-size: 24px;
-
 }
 
 .instrumento__fotos{
@@ -39,12 +52,28 @@ $title-font: normal 24px/1.5 'Roboto', sans-serif;
     width: 440px;
     height:380px;
     padding-left: 20px;
+    margin-top: 10px;
     display: flex;
    align-content: center;
    justify-content: center;
     vertical-align:middle;
 }
  
+.video{
+    font-family: $title-font;
+    font-size: 14px;
+    position: relative;
+    width: 440px;
+    height:380px;
+    padding-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    vertical-align:middle;
+    border-radius: 12px;
+}
+
 .public{
     width: 200px;
     height:500px;
@@ -77,13 +106,14 @@ $title-font: normal 24px/1.5 'Roboto', sans-serif;
     width: 100%;
 }
 
+
 .iframe-container {
-    padding: 15px;
+    padding: 20px;
     width: 660px;
     height: 500px;
 	text-align:center;
   	width:100%;
-      border-radius: 12px;
+    border-radius: 12px;
 }
 
  .contenedor {
@@ -98,6 +128,7 @@ $title-font: normal 24px/1.5 'Roboto', sans-serif;
     max-width: 340px;
     margin: auto;
     overflow-y: auto;
+    margin-top: 10px;
     position: relative;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
@@ -120,7 +151,6 @@ input {
 h1 a{
     font-family: $title-font;
     font-size: 20px;
-    color: #451e12; 
     margin-bottom: 20px;
     text-decoration: none;
 }
@@ -128,22 +158,22 @@ h1 a{
 h2{
     font-family: $title-font;
     font-size: 18px;
-    color: #7c3c12;
+    color: a8dadc;
     margin-bottom: 20px;
 }
 
 h3{
     font-family: $title-font;
     font-size: 18px;
-    color: #c77221;
+    color:a8dadc;
     margin-bottom: 20px;
 }
 
 .barra{
-    justify-content: flex-end;
-    align-content: center;
-    padding-left: 50px;
-    position: relative;
+  //  justify-content: flex-end;
+ //   align-content: center;
+ //   position: relative;
+    background-color: #5d9ec3;
 }
 
 .card {

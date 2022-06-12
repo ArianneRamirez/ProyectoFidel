@@ -12,23 +12,32 @@
   vertical-align: middle;
   padding: 10px; }
 
+.text_index {
+  font-family: 'Roboto', sans-serif;
+  color: #f6f8fa;
+  margin: 12px; }
+
 .encabezado {
   padding: 15px;
   background-color: #447590;
   color: #070707;
-  margin-bottom: 10px; }
+  margin-bottom: 5px; }
 
 .bajada {
   padding: 15px;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
   background-color: #66a2c5; }
+
+.bajada_index {
+  padding-top: 50px;
+  padding-bottom: 450px;
+  background-image: url(../pics/FidelFondo1.jpg);
+  background-size: cover; }
 
 .titulo {
   align-content: center;
   justify-content: center;
-  vertical-align: middle;
-  padding: 10px;
-  font-size: 24px; }
+  vertical-align: middle; }
 
 .instrumento__fotos {
   width: 500px;
@@ -82,22 +91,21 @@
   opacity: 0.3px; }
 
 .avatar {
-  border-radius: 20%;
-  height: 100px;
-  width: 100px; }
+  border-radius: 5%;
+  height: 60px;
+  width: 110px; }
 
 .avatar__image {
-  border-radius: 30%;
+  border-radius: 20%;
   height: 100%;
   width: 100%; }
 
 .iframe-container {
-  padding: 20px;
+  padding: 12px;
   width: 660px;
   height: 500px;
   text-align: center;
-  width: 100%;
-  border-radius: 12px; }
+  width: 100%; }
 
 .contenedor {
   padding-bottom: 15px;
@@ -130,7 +138,8 @@ h1 a {
   font-family: normal 24px/1.5 "Roboto", sans-serif;
   font-size: 20px;
   margin-bottom: 20px;
-  text-decoration: none; }
+  text-decoration: none;
+  color: #24292f; }
 
 h2 {
   font-family: normal 24px/1.5 "Roboto", sans-serif;

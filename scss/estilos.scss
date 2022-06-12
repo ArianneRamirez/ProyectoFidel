@@ -30,6 +30,7 @@ $title-font: normal 24px/1.5 'Roboto', sans-serif;
   margin-bottom: 5px;
 }
 
+
 .bajada{
     padding: 15px;
     margin-bottom: 15px;
@@ -40,7 +41,7 @@ $title-font: normal 24px/1.5 'Roboto', sans-serif;
 .bajada_index{
     padding-top: 50px;
     padding-bottom: 450px;
-    background-image:url(../pics/FidelFondo1.jpg);
+    background-image:url(../pics/FidelFondolg.jpg);
     background-size: cover;
   }
 
@@ -93,10 +94,11 @@ $title-font: normal 24px/1.5 'Roboto', sans-serif;
     display: flex;
     flex-wrap: wrap;
 }
+
 .public_index{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 15px;
+    padding-bottom: 140px;
+    background-image: url(../pics/PublicidadHoriLg.jpg);
+    background-color: #66a2c5;
 }
 
 .ensambles__fotos{
@@ -119,12 +121,15 @@ $title-font: normal 24px/1.5 'Roboto', sans-serif;
 }
 
 .iframe-container {
-    padding: 12px;
-    width: 660px;
-    height: 500px;
 	text-align:center;
   	width:100%;
-}
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 50%;
+    margin-bottom: 20px;
+  }
+ 
 
  .contenedor {
     padding-bottom: 15px;
@@ -180,13 +185,6 @@ h3{
     margin-bottom: 20px;
 }
 
-.barra{
-  //  justify-content: flex-end;
- //   align-content: center;
- //   position: relative;
-    background-color: #5d9ec3;
-}
-
 .card {
     display: flex;
     flex-direction: column;
@@ -232,25 +230,39 @@ transition: all 2s;
     font-family: 'Roboto', sans-serif;
     color:#5f321e;
     font-size: 15px;
-    //position:absolute;
-    //bottom: 0;
-   // width: 100%;
 }
 
 
+@media (min-width:320px) and (max-width:768px){
+    .bajada_index{
+        padding-top: 50px;
+        padding-bottom: 450px;
+        background-image:url(../pics/FidelFondoCh.jpg);
+        background-size: cover;
+      } 
 
+      .public_index{
+        padding-bottom: 40px;
+        background-image: url(../pics/PublicidadHoriCh.jpg);
+        background-color: #66a2c5;
+    }
+    
+    .iframe-container {
+        padding: 12px;
+        width: 320px;
+        height: 100px;
+        text-align:center;
+        width:100%;
+    }
 
-//@media (min-width:320px) and (max-width:768px){
-//    .carrusel{
-//        font-family: $title-font;
-//        font-size: 12px;
-//        margin: auto;
-//        position: relative;
-//        width: 300px;
-//        height:350px;
-//        display: flex;
-//        align-content: center;
-//        justify-content: center;
-//        vertical-align:middle;
-//    }
-//  }
+    .iframe-container {
+        text-align:center;
+        width:70%;
+        position: relative;
+        height: 0;
+        overflow: hidden;
+        padding-bottom: 25%;
+        margin-bottom: 20px;
+      }
+     
+}
